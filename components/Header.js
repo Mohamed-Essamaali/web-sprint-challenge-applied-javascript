@@ -14,22 +14,23 @@
 function Header() {
 
     const header = document.createElement('div');
-    header.classList.add(header);
+    header.classList.add('header');
     const date = document.createElement('span');
     date.classList.add('date');
     const title = document.createElement('h1');
     const temp = document.createElement('span');
     temp.classList.add('temp');
 
+     //text content
+     date.textContent = 'August 14, 2020';
+     title.textContent = 'Lambda & DOM'
+     temp.textContent = '79°'
     //append elemnts 
     header.appendChild(date);
     header.appendChild(title);
     header.appendChild(temp);
     
-    //tect content
-    date.textContent = 'August 14, 2020';
-    title.textContent = 'Lambda & DOM'
-    temp.textContent = '79°'
+   console.log(header)
 
     return header
 }
