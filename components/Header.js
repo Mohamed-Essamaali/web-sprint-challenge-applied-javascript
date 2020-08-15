@@ -30,7 +30,7 @@ function Header() {
     header.appendChild(title);
     header.appendChild(temp);
     
-   console.log(header)
+//    console.log(header)
 
     return header
 }

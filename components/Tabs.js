@@ -13,7 +13,7 @@
 axios
 .get('https://lambda-times-api.herokuapp.com/topics')
 .then(res=>{
-    console.log(res.data)
+    // console.log(res.data)
     let topics = res.data.topics;
     const tabs = document.querySelector('.topics')
     topics.forEach(el=>{
@@ -22,7 +22,7 @@ axios
         tab.textContent = el;
         tabs.appendChild(tab)
 
-        console.log(el)
+        // console.log(el)
     })
 })
 .catch(err=>{
