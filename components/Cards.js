@@ -29,6 +29,7 @@ const makeCard = article=>{
     const author = document.createElement('div');
     author.classList.add('author');
     const imgContainer = document.createElement('div')
+    imgContainer.classList.add('img-container')
     const authorImg = document.createElement('img');
     const authorName = document.createElement('span');
 
