@@ -239,6 +239,8 @@
     position: relative;
     overflow: hidden;
     margin-top: 16px;
+    margin-bottom:5%
+   
   }
   @media (min-width: 1200px) {
     .carousel {
@@ -279,5 +281,7 @@
   .carousel img {
     width: 100%;
     display: none;
+   
   }
+   
   
