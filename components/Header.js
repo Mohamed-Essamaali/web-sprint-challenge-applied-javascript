@@ -23,7 +23,7 @@ function Header() {
 
      //text content
      date.textContent = 'August 14, 2020';
-     title.textContent = 'Lambda & DOM'
+     title.textContent = 'Lambda Times'
      temp.textContent = '79°'
     //append elemnts 
     header.appendChild(date);
