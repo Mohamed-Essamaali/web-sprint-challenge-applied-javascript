@@ -43,7 +43,7 @@ const createCarousel = ()=>{
                     'https://tk-assets.lambdaschool.com/0b770382-d0eb-4465-8bf2-692a79fcda71_turntable.jpeg']
 
   
-  carouselImg.src = imgAddress[i];//default carousel image
+  carouselImg.src = imgAddress[i];//default carousel image at i=0
 
   //function moving to the right
      const moveRight = ()=>{
@@ -54,7 +54,7 @@ const createCarousel = ()=>{
         i++;
       }
       carouselImg.src=imgAddress[i]
-      carouselImg.style.display='block'
+      // carouselImg.style.display='block'
     }
     
 
@@ -67,7 +67,7 @@ const createCarousel = ()=>{
         i--;
       }
       carouselImg.src=imgAddress[i]
-      carouselImg.style.display='block'
+      // carouselImg.style.display='block'
     }
 
   //append elements
